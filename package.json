@@ -1,0 +1,41 @@
+{
+  "name": "testing-steps",
+  "version": "1.0.8",
+  "description": "An acceptance testing language organized as an ordered list of steps.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanconway/testing-steps.git"
+  },
+  "keywords": [
+    "test",
+    "steps",
+    "BDD",
+    "unit",
+    "spec",
+    "behavior",
+    "behaviour"
+  ],
+  "author": "Jonathan Conway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanconway/testing-steps/issues"
+  },
+  "homepage": "https://github.com/jonathanconway/testing-steps#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.0",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  }
+}
