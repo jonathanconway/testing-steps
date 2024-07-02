@@ -1,3 +1,7 @@
+**Important:** This package has been moved to https://github.com/jonathanconway/testmatic.
+
+-----
+
 # Testing steps
 
 > An acceptance testing language organized as an ordered list of steps.
